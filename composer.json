@@ -20,6 +20,8 @@
     }
   },
   "require-dev": {
-    "phpunit/php-timer": "^7.0"
+    "phpunit/php-timer": "^7.0",
+    "squizlabs/php_codesniffer": "^3.9",
+    "phan/phan": "^5.4"
   }
 }

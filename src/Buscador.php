@@ -25,7 +25,7 @@ class Buscador
         $elementosCursos = $this->crawler->filter('.card-curso__nome') ;
         $cursos = [];
 
-        foreach($elementosCursos as $elemento) {
+        foreach ($elementosCursos as $elemento) {
             $cursos[] = $elemento->textContent;
         }
 
