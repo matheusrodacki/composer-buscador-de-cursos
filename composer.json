@@ -1,0 +1,17 @@
+{
+  "name": "matheusrodacki/buscador-de-cursos",
+  "description": "Projeto que busca os cursos no site da Alura.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "matheusrodacki",
+      "email": "44122620+matheusrodacki@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.8",
+    "symfony/dom-crawler": "^7.0",
+    "symfony/css-selector": "^7.0.3"
+  }
+}
